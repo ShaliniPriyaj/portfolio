@@ -1,12 +1,12 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  font-family: 'Poppins', sans-serif;
-  background: linear-gradient(145deg, #f0f4f8, #dfe9f3);
+  font-family: 'Inter', sans-serif;
+  background-color: #f5f7fa;
   color: #333;
 }
 
@@ -15,22 +15,21 @@ body {
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 30px auto;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
 }
 
 .sidebar {
   flex: 1;
-  background: #0f172a;
-  color: white;
+  background-color: #0f172a;
+  color: #fff;
   padding: 30px;
-  min-width: 260px;
-  position: sticky;
-  top: 0;
-  height: 100vh;
+  min-width: 250px;
 }
 
 .sidebar h1 {
-  font-size: 26px;
+  font-size: 24px;
+  margin-bottom: 5px;
 }
 
 .role {
@@ -39,21 +38,15 @@ body {
   margin-bottom: 20px;
 }
 
-.contact p,
-.contact a {
-  font-size: 14px;
+.contact-info p,
+.contact-info a {
   margin: 8px 0;
-  color: #e2e8f0;
+  font-size: 14px;
+  color: #f1f5f9;
   text-decoration: none;
 }
 
-.contact i {
-  margin-right: 8px;
-  color: #38bdf8;
-}
-
-.skills h2,
-.skills h3 {
+.skills h2, .skills h3 {
   margin-top: 20px;
   font-size: 16px;
   border-bottom: 1px solid #334155;
@@ -62,66 +55,49 @@ body {
 
 .skills ul {
   list-style: none;
-  margin-top: 10px;
   padding-left: 0;
+  margin: 10px 0;
 }
 
-.skills li {
-  font-size: 14px;
+.skills ul li {
   margin-bottom: 6px;
+  font-size: 14px;
 }
 
-.main-content {
+.content {
   flex: 3;
-  padding: 40px;
-  background: white;
+  padding: 30px;
 }
 
-.main-content section {
-  margin-bottom: 35px;
+.content section {
+  margin-bottom: 30px;
 }
 
-.main-content h2 {
-  font-size: 22px;
+.content h2 {
+  font-size: 20px;
+  color: #1e293b;
   margin-bottom: 15px;
-  color: #1e3a8a;
-  border-bottom: 2px solid #60a5fa;
+  border-bottom: 2px solid #0f172a;
   display: inline-block;
   padding-bottom: 5px;
 }
 
-.card {
-  background: #f8fafc;
-  padding: 20px;
-  border-left: 5px solid #3b82f6;
+.item {
   margin-bottom: 15px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-  border-radius: 5px;
 }
 
-.card h3 {
+.item h3 {
+  font-size: 16px;
   color: #0f172a;
-  margin-bottom: 8px;
-  font-size: 18px;
+  margin-bottom: 5px;
 }
 
-.card p {
+.item p, .item ul {
   font-size: 14px;
-  color: #475569;
+  color: #334155;
 }
 
-.card ul {
-  margin-top: 10px;
+.item ul {
+  margin-top: 5px;
   padding-left: 20px;
-  font-size: 14px;
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-  .sidebar {
-    position: relative;
-    height: auto;
-  }
 }
