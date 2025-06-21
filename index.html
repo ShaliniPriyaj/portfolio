@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shalini Priya J - Portfolio Resume</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Shalini Priya J • Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <img src="https://via.placeholder.com/130" alt="Shalini Priya J">
-    <h1>Shalini Priya J</h1>
-    <p>B.Tech in Artificial Intelligence & Machine Learning</p>
+    <div class="header-inner">
+      <img src="https://via.placeholder.com/140" alt="Profile Photo">
+      <div class="intro">
+        <h1>Shalini Priya J</h1>
+        <p>B.Tech • AI &amp; ML • Passionate Developer</p>
+      </div>
+    </div>
   </header>
 
   <nav>
@@ -19,76 +23,80 @@
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#timeline">Timeline</a></li>
-      <li><a href="#projects">Projects</a></li>
+      <li><a href="#work">Work</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
 
-  <section id="about">
-    <h2>About</h2>
-    <p>Proficient in Java, C++, JavaScript, and Python with a solid understanding of SDLC, algorithms, and data structures. A collaborative team player with excellent problem-solving skills, passionate about building impactful software.</p>
-  </section>
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm Shalini, an AI & ML student turned web developer. I love turning ideas into intuitive, functional products using code.</p>
+    </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="card">
-      <div class="skill">C <div class="bar-container"><div class="bar" style="width: 90%;"></div></div></div>
-      <div class="skill">C++ <div class="bar-container"><div class="bar" style="width: 85%;"></div></div></div>
-      <div class="skill">Java <div class="bar-container"><div class="bar" style="width: 80%;"></div></div></div>
-      <div class="skill">JavaScript <div class="bar-container"><div class="bar" style="width: 75%;"></div></div></div>
-      <div class="skill">Python <div class="bar-container"><div class="bar" style="width: 80%;"></div></div></div>
-      <div class="skill">MySQL <div class="bar-container"><div class="bar" style="width: 70%;"></div></div></div>
-      <div class="skill">Machine Learning <div class="bar-container"><div class="bar" style="width: 70%;"></div></div></div>
-    </div>
-  </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-card">C</div>
+        <div class="skill-card">C++</div>
+        <div class="skill-card">Java</div>
+        <div class="skill-card">JavaScript</div>
+        <div class="skill-card">Python</div>
+        <div class="skill-card">MySQL</div>
+        <div class="skill-card">Machine Learning</div>
+      </div>
+    </section>
 
-  <section id="timeline">
-    <h2>Timeline</h2>
-    <div class="card">
-      <h3>SSLC – Velammal Vidyalaya</h3>
-      <p>2020 • Scored 89.80%</p>
-    </div>
-    <div class="card">
-      <h3>HSC – Velammal Vidyalaya</h3>
-      <p>2022 • Scored 88.00%</p>
-    </div>
-    <div class="card">
-      <h3>B.Tech – Rajalakshmi Engineering College</h3>
-      <p>2022–2026 • AI & ML • GPA: 7.85</p>
-    </div>
-    <div class="card">
-      <h3>Web Development Intern – Edunet Foundation</h3>
-      <p>Feb 2025 • 6-week MERN Stack Internship</p>
-    </div>
-  </section>
+    <section id="timeline">
+      <h2>Timeline</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span class="date">2020</span>
+          <p>SSLC – Velammal Vidyalaya (89.80%)</p>
+        </div>
+        <div class="timeline-item">
+          <span class="date">2022</span>
+          <p>HSC – Velammal Vidyalaya (88.00%)</p>
+        </div>
+        <div class="timeline-item">
+          <span class="date">2022–26</span>
+          <p>B.Tech, AI & ML – Rajalakshmi Engineering College (GPA 7.85)</p>
+        </div>
+        <div class="timeline-item">
+          <span class="date">Feb 2025</span>
+          <p>Intern: MERN Stack Developer at Edunet Foundation</p>
+        </div>
+      </div>
+    </section>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="card">
-      <h3>SignSpeak – Text-to-Sign Language</h3>
-      <p>2025 • Converts English text into Indian Sign Language using animated gestures to aid communication for the hearing-impaired.</p>
-    </div>
-    <div class="card">
-      <h3>Gesture Recognition for Audio Control</h3>
-      <p>2024 • Real-time hand gesture recognition system using SVM to help visually impaired users control device audio settings.</p>
-    </div>
-    <div class="card">
-      <h3>Personal Finance Manager – FinanceHub</h3>
-      <p>2025 • Web-based platform to track, categorize, and visualize financial transactions using MERN stack.</p>
-    </div>
-  </section>
+    <section id="work">
+      <h2>Selected Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <h3>SignSpeak</h3>
+          <p>Text‑to‑Sign (ISL) using animated gestures. (2025)</p>
+        </div>
+        <div class="project-card">
+          <h3>Gesture Recognition</h3>
+          <p>Hand‑gesture audio control with SVM for visually impaired. (2024)</p>
+        </div>
+        <div class="project-card">
+          <h3>FinanceHub</h3>
+          <p>MERN Finance Tracker with reports & visuals. (2025)</p>
+        </div>
+      </div>
+    </section>
 
-  <section id="contact">
-    <h2>Contact</h2>
-    <div class="contact">
+    <section id="contact">
+      <h2>Contact</h2>
       <p>📞 9578578752</p>
       <p>📧 <a href="mailto:shalinipriyajsp@gmail.com">shalinipriyajsp@gmail.com</a></p>
       <p>🔗 <a href="https://linkedin.com/in/shalini-priya-j-5116ab293" target="_blank">LinkedIn Profile</a></p>
-    </div>
-  </section>
+    </section>
+  </main>
 
   <footer>
-    &copy; 2025 Shalini Priya J. All rights reserved.
+    &copy; 2025 • Designed by Shalini Priya J
   </footer>
 </body>
 </html>
