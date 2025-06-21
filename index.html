@@ -1,69 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shalini Priya J - Resume</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shalini Priya J - Portfolio Resume</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1>Shalini Priya J</h1>
-      <p>B.Tech - Artificial Intelligence and Machine Learning</p>
-      <div class="contact">
-        <p>📞 9578578752 | 📧 shalinipriyajsp@gmail.com</p>
-        <p>📍 Chennai, Tamil Nadu | <a href="https://linkedin.com/in/shalini-priya-j-5116ab293" target="_blank">LinkedIn</a></p>
-      </div>
-    </header>
+  <header>
+    <img src="https://via.placeholder.com/130" alt="Shalini Priya J">
+    <h1>Shalini Priya J</h1>
+    <p>B.Tech in Artificial Intelligence & Machine Learning</p>
+  </header>
 
-    <section>
-      <h2>Profile</h2>
-      <p>Proficient in Java, C++, JavaScript, and Python with a solid understanding of SDLC, algorithms, and data structures. A collaborative team player with strong problem-solving skills and a commitment to building efficient, user-focused software.</p>
-    </section>
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#timeline">Timeline</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
-    <section>
-      <h2>Skills</h2>
-      <div class="skills">
-        <strong>Tech Skills:</strong> C, C++, Java, JavaScript, MySQL, Python, Machine Learning<br>
-        <strong>Soft Skills:</strong> Teamwork, Time Management, Problem Solving, Critical Thinking, Adaptability
-      </div>
-    </section>
+  <section id="about">
+    <h2>About</h2>
+    <p>Proficient in Java, C++, JavaScript, and Python with a solid understanding of SDLC, algorithms, and data structures. A collaborative team player with excellent problem-solving skills, passionate about building impactful software.</p>
+  </section>
 
-    <section>
-      <h2>Education</h2>
-      <ul>
-        <li><strong>Rajalakshmi Engineering College</strong><br>B.Tech in AI & ML | 2022 – 2026 | GPA: 7.85</li>
-        <li><strong>Velammal Vidyalaya</strong><br>HSC | 2022 | 88.00%</li>
-        <li><strong>Velammal Vidyalaya</strong><br>SSLC | 2020 | 89.80%</li>
-      </ul>
-    </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="card">
+      <div class="skill">C <div class="bar-container"><div class="bar" style="width: 90%;"></div></div></div>
+      <div class="skill">C++ <div class="bar-container"><div class="bar" style="width: 85%;"></div></div></div>
+      <div class="skill">Java <div class="bar-container"><div class="bar" style="width: 80%;"></div></div></div>
+      <div class="skill">JavaScript <div class="bar-container"><div class="bar" style="width: 75%;"></div></div></div>
+      <div class="skill">Python <div class="bar-container"><div class="bar" style="width: 80%;"></div></div></div>
+      <div class="skill">MySQL <div class="bar-container"><div class="bar" style="width: 70%;"></div></div></div>
+      <div class="skill">Machine Learning <div class="bar-container"><div class="bar" style="width: 70%;"></div></div></div>
+    </div>
+  </section>
 
-    <section>
-      <h2>Experience</h2>
-      <p><strong>Intern - Web Development (MERN Stack)</strong><br>Edunet Foundation | 6 Weeks<br>Built modern web apps using HTML, CSS, JavaScript, Node.js, Express.js, MongoDB.</p>
-    </section>
+  <section id="timeline">
+    <h2>Timeline</h2>
+    <div class="card">
+      <h3>SSLC – Velammal Vidyalaya</h3>
+      <p>2020 • Scored 89.80%</p>
+    </div>
+    <div class="card">
+      <h3>HSC – Velammal Vidyalaya</h3>
+      <p>2022 • Scored 88.00%</p>
+    </div>
+    <div class="card">
+      <h3>B.Tech – Rajalakshmi Engineering College</h3>
+      <p>2022–2026 • AI & ML • GPA: 7.85</p>
+    </div>
+    <div class="card">
+      <h3>Web Development Intern – Edunet Foundation</h3>
+      <p>Feb 2025 • 6-week MERN Stack Internship</p>
+    </div>
+  </section>
 
-    <section>
-      <h2>Projects</h2>
-      <ul>
-        <li>
-          <strong>SignSpeak – Text-to-Sign Language Conversion</strong><br>
-          Deep Learning Mini Project | 2025<br>
-          Built an assistive tool that converts English text into ISL using animated gesture videos.
-        </li>
-        <li>
-          <strong>Gesture Recognition for Audio Control Using SVM</strong><br>
-          Machine Learning Mini Project | 2024<br>
-          Developed real-time hand gesture recognition to help visually impaired users manage device settings.
-        </li>
-        <li>
-          <strong>Personal Finance Manager – FinanceHub</strong><br>
-          MERN Stack Mini Project | 2025<br>
-          Designed a web platform for tracking transactions with categorized reports and visual insights.
-        </li>
-      </ul>
-    </section>
-  </div>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>SignSpeak – Text-to-Sign Language</h3>
+      <p>2025 • Converts English text into Indian Sign Language using animated gestures to aid communication for the hearing-impaired.</p>
+    </div>
+    <div class="card">
+      <h3>Gesture Recognition for Audio Control</h3>
+      <p>2024 • Real-time hand gesture recognition system using SVM to help visually impaired users control device audio settings.</p>
+    </div>
+    <div class="card">
+      <h3>Personal Finance Manager – FinanceHub</h3>
+      <p>2025 • Web-based platform to track, categorize, and visualize financial transactions using MERN stack.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <div class="contact">
+      <p>📞 9578578752</p>
+      <p>📧 <a href="mailto:shalinipriyajsp@gmail.com">shalinipriyajsp@gmail.com</a></p>
+      <p>🔗 <a href="https://linkedin.com/in/shalini-priya-j-5116ab293" target="_blank">LinkedIn Profile</a></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Shalini Priya J. All rights reserved.
+  </footer>
 </body>
 </html>
