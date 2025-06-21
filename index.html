@@ -1,102 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Shalini Priya J • Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shalini Priya J - Resume</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header>
-    <div class="header-inner">
-      <img src="https://via.placeholder.com/140" alt="Profile Photo">
-      <div class="intro">
-        <h1>Shalini Priya J</h1>
-        <p>B.Tech • AI &amp; ML • Passionate Developer</p>
+  <div class="container">
+    <aside class="sidebar">
+      <h1>Shalini Priya J</h1>
+      <p class="role">B.Tech - AI & ML</p>
+      <div class="contact-info">
+        <p>📍 Chennai, Tamil Nadu</p>
+        <p>📞 9578578752</p>
+        <p>📧 <a href="mailto:shalinipriyajsp@gmail.com">shalinipriyajsp@gmail.com</a></p>
+        <p>🔗 <a href="https://linkedin.com/in/shalini-priya-j-5116ab293" target="_blank">LinkedIn Profile</a></p>
       </div>
-    </div>
-  </header>
-
-  <nav>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#timeline">Timeline</a></li>
-      <li><a href="#work">Work</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>I'm Shalini, an AI & ML student turned web developer. I love turning ideas into intuitive, functional products using code.</p>
-    </section>
-
-    <section id="skills">
-      <h2>Skills</h2>
-      <div class="skills-grid">
-        <div class="skill-card">C</div>
-        <div class="skill-card">C++</div>
-        <div class="skill-card">Java</div>
-        <div class="skill-card">JavaScript</div>
-        <div class="skill-card">Python</div>
-        <div class="skill-card">MySQL</div>
-        <div class="skill-card">Machine Learning</div>
+      <div class="skills">
+        <h2>Skills</h2>
+        <h3>Tech</h3>
+        <ul>
+          <li>C, C++, Java, JavaScript</li>
+          <li>Python, MySQL</li>
+          <li>Machine Learning</li>
+        </ul>
+        <h3>Soft</h3>
+        <ul>
+          <li>Teamwork</li>
+          <li>Problem Solving</li>
+          <li>Critical Thinking</li>
+          <li>Time Management</li>
+        </ul>
       </div>
-    </section>
+    </aside>
 
-    <section id="timeline">
-      <h2>Timeline</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <span class="date">2020</span>
-          <p>SSLC – Velammal Vidyalaya (89.80%)</p>
-        </div>
-        <div class="timeline-item">
-          <span class="date">2022</span>
-          <p>HSC – Velammal Vidyalaya (88.00%)</p>
-        </div>
-        <div class="timeline-item">
-          <span class="date">2022–26</span>
-          <p>B.Tech, AI & ML – Rajalakshmi Engineering College (GPA 7.85)</p>
-        </div>
-        <div class="timeline-item">
-          <span class="date">Feb 2025</span>
-          <p>Intern: MERN Stack Developer at Edunet Foundation</p>
-        </div>
-      </div>
-    </section>
+    <main class="content">
+      <section>
+        <h2>Profile</h2>
+        <p>Proficient in Java, C++, JavaScript, and Python with a solid understanding of SDLC, algorithms, and data structures. A collaborative team player with strong problem-solving skills and a commitment to developing efficient and user-focused software.</p>
+      </section>
 
-    <section id="work">
-      <h2>Selected Projects</h2>
-      <div class="projects-grid">
-        <div class="project-card">
-          <h3>SignSpeak</h3>
-          <p>Text‑to‑Sign (ISL) using animated gestures. (2025)</p>
+      <section>
+        <h2>Education</h2>
+        <div class="item">
+          <h3>Rajalakshmi Engineering College</h3>
+          <p>B.Tech in AI & ML | 2022 – 2026 | GPA: 7.85</p>
         </div>
-        <div class="project-card">
-          <h3>Gesture Recognition</h3>
-          <p>Hand‑gesture audio control with SVM for visually impaired. (2024)</p>
+        <div class="item">
+          <h3>Velammal Vidyalaya</h3>
+          <p>HSC | 2022 | 88.00%</p>
+          <p>SSLC | 2020 | 89.80%</p>
         </div>
-        <div class="project-card">
-          <h3>FinanceHub</h3>
-          <p>MERN Finance Tracker with reports & visuals. (2025)</p>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>📞 9578578752</p>
-      <p>📧 <a href="mailto:shalinipriyajsp@gmail.com">shalinipriyajsp@gmail.com</a></p>
-      <p>🔗 <a href="https://linkedin.com/in/shalini-priya-j-5116ab293" target="_blank">LinkedIn Profile</a></p>
-    </section>
-  </main>
+      <section>
+        <h2>Experience</h2>
+        <div class="item">
+          <h3>Intern - Web Development (MERN Stack)</h3>
+          <p>Edunet Foundation | 6 Weeks</p>
+          <ul>
+            <li>Built modern web apps using HTML, CSS, JavaScript, Node.js, Express.js, MongoDB.</li>
+          </ul>
+        </div>
+      </section>
 
-  <footer>
-    &copy; 2025 • Designed by Shalini Priya J
-  </footer>
+      <section>
+        <h2>Projects</h2>
+        <div class="item">
+          <h3>SignSpeak – Text-to-Sign Language Conversion (2025)</h3>
+          <p>Converted English text to Indian Sign Language (ISL) using animated gesture video output for hearing-impaired users.</p>
+        </div>
+        <div class="item">
+          <h3>Gesture Recognition for Audio Control (2024)</h3>
+          <p>Developed a real-time hand gesture system using SVM to help blind users control device settings.</p>
+        </div>
+        <div class="item">
+          <h3>Personal Finance Manager – FinanceHub (2025)</h3>
+          <p>Created a web-based platform to track expenses, categorize transactions, and generate financial insights using the MERN stack.</p>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
